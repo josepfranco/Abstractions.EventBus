@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Threading.Tasks;
 using Abstractions.EventBus.Models;
 
@@ -13,7 +14,8 @@ namespace Abstractions.EventBus
         /// 
         /// </summary>
         /// <param name="event"></param>
+        /// <param name="token">the cancellation token</param>
         /// <returns></returns>
-        Task HandleAsync(TEvent @event);
+        Task HandleAsync(TEvent @event, CancellationToken token = default);
     }
 }
