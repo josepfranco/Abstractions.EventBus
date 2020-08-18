@@ -1,0 +1,110 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Abstractions.MessageBroker
+  name: Abstractions.MessageBroker
+  href: api/Abstractions.MessageBroker.html
+  commentId: N:Abstractions.MessageBroker
+  fullName: Abstractions.MessageBroker
+  nameWithType: Abstractions.MessageBroker
+- uid: Abstractions.MessageBroker.IMessageBus
+  name: IMessageBus
+  href: api/Abstractions.MessageBroker.IMessageBus.html
+  commentId: T:Abstractions.MessageBroker.IMessageBus
+  fullName: Abstractions.MessageBroker.IMessageBus
+  nameWithType: IMessageBus
+- uid: Abstractions.MessageBroker.IMessageHandler`1
+  name: IMessageHandler<TMessage>
+  href: api/Abstractions.MessageBroker.IMessageHandler-1.html
+  commentId: T:Abstractions.MessageBroker.IMessageHandler`1
+  name.vb: IMessageHandler(Of TMessage)
+  fullName: Abstractions.MessageBroker.IMessageHandler<TMessage>
+  fullName.vb: Abstractions.MessageBroker.IMessageHandler(Of TMessage)
+  nameWithType: IMessageHandler<TMessage>
+  nameWithType.vb: IMessageHandler(Of TMessage)
+- uid: Abstractions.MessageBroker.IMessageHandler`1.HandleAsync(`0,CancellationToken)
+  name: HandleAsync(TMessage, CancellationToken)
+  href: api/Abstractions.MessageBroker.IMessageHandler-1.html#Abstractions_MessageBroker_IMessageHandler_1_HandleAsync__0_CancellationToken_
+  commentId: M:Abstractions.MessageBroker.IMessageHandler`1.HandleAsync(`0,CancellationToken)
+  fullName: Abstractions.MessageBroker.IMessageHandler<TMessage>.HandleAsync(TMessage, CancellationToken)
+  fullName.vb: Abstractions.MessageBroker.IMessageHandler(Of TMessage).HandleAsync(TMessage, CancellationToken)
+  nameWithType: IMessageHandler<TMessage>.HandleAsync(TMessage, CancellationToken)
+  nameWithType.vb: IMessageHandler(Of TMessage).HandleAsync(TMessage, CancellationToken)
+- uid: Abstractions.MessageBroker.IMessageHandler`1.HandleAsync*
+  name: HandleAsync
+  href: api/Abstractions.MessageBroker.IMessageHandler-1.html#Abstractions_MessageBroker_IMessageHandler_1_HandleAsync_
+  commentId: Overload:Abstractions.MessageBroker.IMessageHandler`1.HandleAsync
+  isSpec: "True"
+  fullName: Abstractions.MessageBroker.IMessageHandler<TMessage>.HandleAsync
+  fullName.vb: Abstractions.MessageBroker.IMessageHandler(Of TMessage).HandleAsync
+  nameWithType: IMessageHandler<TMessage>.HandleAsync
+  nameWithType.vb: IMessageHandler(Of TMessage).HandleAsync
+- uid: Abstractions.MessageBroker.IPublisher
+  name: IPublisher
+  href: api/Abstractions.MessageBroker.IPublisher.html
+  commentId: T:Abstractions.MessageBroker.IPublisher
+  fullName: Abstractions.MessageBroker.IPublisher
+  nameWithType: IPublisher
+- uid: Abstractions.MessageBroker.IPublisher.Publish(Abstractions.MessageBroker.Models.IMessage)
+  name: Publish(IMessage)
+  href: api/Abstractions.MessageBroker.IPublisher.html#Abstractions_MessageBroker_IPublisher_Publish_Abstractions_MessageBroker_Models_IMessage_
+  commentId: M:Abstractions.MessageBroker.IPublisher.Publish(Abstractions.MessageBroker.Models.IMessage)
+  fullName: Abstractions.MessageBroker.IPublisher.Publish(Abstractions.MessageBroker.Models.IMessage)
+  nameWithType: IPublisher.Publish(IMessage)
+- uid: Abstractions.MessageBroker.IPublisher.Publish*
+  name: Publish
+  href: api/Abstractions.MessageBroker.IPublisher.html#Abstractions_MessageBroker_IPublisher_Publish_
+  commentId: Overload:Abstractions.MessageBroker.IPublisher.Publish
+  isSpec: "True"
+  fullName: Abstractions.MessageBroker.IPublisher.Publish
+  nameWithType: IPublisher.Publish
+- uid: Abstractions.MessageBroker.ISubscriber
+  name: ISubscriber
+  href: api/Abstractions.MessageBroker.ISubscriber.html
+  commentId: T:Abstractions.MessageBroker.ISubscriber
+  fullName: Abstractions.MessageBroker.ISubscriber
+  nameWithType: ISubscriber
+- uid: Abstractions.MessageBroker.ISubscriber.Subscribe*
+  name: Subscribe
+  href: api/Abstractions.MessageBroker.ISubscriber.html#Abstractions_MessageBroker_ISubscriber_Subscribe_
+  commentId: Overload:Abstractions.MessageBroker.ISubscriber.Subscribe
+  isSpec: "True"
+  fullName: Abstractions.MessageBroker.ISubscriber.Subscribe
+  nameWithType: ISubscriber.Subscribe
+- uid: Abstractions.MessageBroker.ISubscriber.Subscribe``2
+  name: Subscribe<TMessage, TMessageHandler>()
+  href: api/Abstractions.MessageBroker.ISubscriber.html#Abstractions_MessageBroker_ISubscriber_Subscribe__2
+  commentId: M:Abstractions.MessageBroker.ISubscriber.Subscribe``2
+  name.vb: Subscribe(Of TMessage, TMessageHandler)()
+  fullName: Abstractions.MessageBroker.ISubscriber.Subscribe<TMessage, TMessageHandler>()
+  fullName.vb: Abstractions.MessageBroker.ISubscriber.Subscribe(Of TMessage, TMessageHandler)()
+  nameWithType: ISubscriber.Subscribe<TMessage, TMessageHandler>()
+  nameWithType.vb: ISubscriber.Subscribe(Of TMessage, TMessageHandler)()
+- uid: Abstractions.MessageBroker.ISubscriber.Unsubscribe*
+  name: Unsubscribe
+  href: api/Abstractions.MessageBroker.ISubscriber.html#Abstractions_MessageBroker_ISubscriber_Unsubscribe_
+  commentId: Overload:Abstractions.MessageBroker.ISubscriber.Unsubscribe
+  isSpec: "True"
+  fullName: Abstractions.MessageBroker.ISubscriber.Unsubscribe
+  nameWithType: ISubscriber.Unsubscribe
+- uid: Abstractions.MessageBroker.ISubscriber.Unsubscribe``2
+  name: Unsubscribe<TMessage, TMessageHandler>()
+  href: api/Abstractions.MessageBroker.ISubscriber.html#Abstractions_MessageBroker_ISubscriber_Unsubscribe__2
+  commentId: M:Abstractions.MessageBroker.ISubscriber.Unsubscribe``2
+  name.vb: Unsubscribe(Of TMessage, TMessageHandler)()
+  fullName: Abstractions.MessageBroker.ISubscriber.Unsubscribe<TMessage, TMessageHandler>()
+  fullName.vb: Abstractions.MessageBroker.ISubscriber.Unsubscribe(Of TMessage, TMessageHandler)()
+  nameWithType: ISubscriber.Unsubscribe<TMessage, TMessageHandler>()
+  nameWithType.vb: ISubscriber.Unsubscribe(Of TMessage, TMessageHandler)()
+- uid: Abstractions.MessageBroker.Models
+  name: Abstractions.MessageBroker.Models
+  href: api/Abstractions.MessageBroker.Models.html
+  commentId: N:Abstractions.MessageBroker.Models
+  fullName: Abstractions.MessageBroker.Models
+  nameWithType: Abstractions.MessageBroker.Models
+- uid: Abstractions.MessageBroker.Models.IMessage
+  name: IMessage
+  href: api/Abstractions.MessageBroker.Models.IMessage.html
+  commentId: T:Abstractions.MessageBroker.Models.IMessage
+  fullName: Abstractions.MessageBroker.Models.IMessage
+  nameWithType: IMessage
