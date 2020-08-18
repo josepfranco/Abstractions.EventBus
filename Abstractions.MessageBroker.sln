@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions.EventBus", "src\Abstractions.EventBus\Abstractions.EventBus.csproj", "{02EE542B-4BB4-4A53-93A9-3CC31B5CC299}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstractions.MessageBroker", "src\Abstractions.MessageBroker\Abstractions.MessageBroker.csproj", "{02EE542B-4BB4-4A53-93A9-3CC31B5CC299}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

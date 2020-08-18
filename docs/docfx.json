@@ -5,7 +5,7 @@
         {
           "files": ["**/*.csproj"],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "../src/Abstractions.EventBus/"
+          "src": "../src/Abstractions.MessageBroker/"
         }
       ],
       "dest": "api",

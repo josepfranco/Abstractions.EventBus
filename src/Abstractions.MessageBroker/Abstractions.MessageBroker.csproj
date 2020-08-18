@@ -8,8 +8,9 @@
         <VersionSuffix>alpha</VersionSuffix>
         <PackageVersion>1.0.1</PackageVersion>
         <Authors>José Franco</Authors>
-        <RepositoryUrl>https://github.com/josepfranco/Abstractions.EventBus</RepositoryUrl>
+        <RepositoryUrl>https://github.com/josepfranco/Abstractions.MessageBroker</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+        <RootNamespace>Abstractions.MessageBroker</RootNamespace>
         <!--                -->
     </PropertyGroup>
 

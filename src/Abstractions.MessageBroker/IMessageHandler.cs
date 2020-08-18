@@ -7,15 +7,15 @@ namespace Abstractions.EventBus
     /// <summary>
     /// 
     /// </summary>
-    /// <typeparam name="TEvent"></typeparam>
-    public interface IEventHandler<in TEvent> where TEvent : IEvent
+    /// <typeparam name="TMessage"></typeparam>
+    public interface IMessageHandler<in TMessage> where TMessage : IMessage
     {
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="event"></param>
+        /// <param name="message"></param>
         /// <param name="token">the cancellation token</param>
         /// <returns></returns>
-        Task HandleAsync(TEvent @event, CancellationToken token = default);
+        Task HandleAsync(TMessage message, CancellationToken token = default);
     }
 }

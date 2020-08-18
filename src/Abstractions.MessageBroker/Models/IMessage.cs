@@ -3,5 +3,5 @@ namespace Abstractions.EventBus.Models
     /// <summary>
     /// 
     /// </summary>
-    public interface IEvent {}
+    public interface IMessage {}
 }
