@@ -1,2 +1,2 @@
-# Abstractions.EventBus
-Boilerplate abstractions and contracts for all event communication operations in C#.
+# Abstractions.MessageBroker
+Boilerplate abstractions and contracts for message publishing and subscription operations in C#.

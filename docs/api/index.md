@@ -1,1 +1,1 @@
-# Event Bus Communication Specifications
+# Message Broker Specifications

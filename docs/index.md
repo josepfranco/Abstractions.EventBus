@@ -1,1 +1,1 @@
-# Event Bus Communication Abstractions & Specifications
+# Message Broker Specifications
