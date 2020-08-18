@@ -1,6 +1,6 @@
-using Abstractions.EventBus.Models;
+using Abstractions.MessageBroker.Models;
 
-namespace Abstractions.EventBus
+namespace Abstractions.MessageBroker
 {
     public interface ISubscriber
     {

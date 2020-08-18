@@ -1,6 +1,6 @@
 using System;
 
-namespace Abstractions.EventBus
+namespace Abstractions.MessageBroker
 {
     /// <summary>
     /// 
