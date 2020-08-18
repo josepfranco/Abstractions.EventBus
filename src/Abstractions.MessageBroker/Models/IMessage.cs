@@ -1,4 +1,4 @@
-namespace Abstractions.EventBus.Models
+namespace Abstractions.MessageBroker.Models
 {
     /// <summary>
     /// 

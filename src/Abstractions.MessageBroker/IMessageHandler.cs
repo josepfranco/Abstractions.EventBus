@@ -1,8 +1,8 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Abstractions.EventBus.Models;
+using Abstractions.MessageBroker.Models;
 
-namespace Abstractions.EventBus
+namespace Abstractions.MessageBroker
 {
     /// <summary>
     /// 
